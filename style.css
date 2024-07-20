@@ -1,0 +1,82 @@
+body {
+    background-image: url("Black and White Morning Foggy Forest Free Photo.jpeg");
+    background-size: cover;
+    background-color: #00000086;
+    background-blend-mode: multiply;
+    background-repeat: no-repeat;
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#display {
+    width: 100%;
+    padding: 20px;
+    font-size: 5rem;
+    margin-top: 30px;
+    text-align: left;
+    background-color: #000000c5;
+    color: white;
+}
+
+#calculator {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #00000093;
+    max-width: 500px;
+    overflow: hidden;
+}
+
+#keys {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    padding: 25px;
+}
+
+button {
+    width: 100px;
+    height: 90px;
+    border-radius: 40px;
+    border: none;
+    background-color: #000000;
+    color: white;
+    font-size: 3rem;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #111111;
+}
+
+button:active {
+    background-color: #222222;
+}
+
+.operator-btn {
+    background-color: #ff9900;
+    color: #292929;
+}
+
+.operator-btn:hover {
+    background-color: #e28800;
+}
+
+.operator-btn:active {
+    background-color: #ffac2f;
+}
+
+.clear-btn {
+    background-color: #ffffff;
+    color: black;
+}
+
+.clear-btn:hover {
+    background-color: #d4d4d4;
+}
+
+.clear-btn:active {
+    background-color: #adadad;
+}
